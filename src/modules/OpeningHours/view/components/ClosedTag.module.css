@@ -1,0 +1,5 @@
+@import "../../../../common/styles/const.css";
+
+.tag {
+  color: var(--color-grey-3)
+}

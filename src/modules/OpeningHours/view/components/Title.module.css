@@ -1,0 +1,45 @@
+@import "../../../../common/styles/const.css";
+
+.wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 3px var(--color-grey-3) solid;
+  background-color: var(--color-white);
+  position: relative;
+}
+
+.clock .hand {
+  position: absolute;
+  width: 2px;
+  height: 6px;
+  left: calc(50% - 1px);
+  top: 50%;
+  background-color: var(--color-grey-3);
+  transform-origin: center 0;
+}
+
+.clock .hand.minute {
+  transform: rotate(-45deg);
+}
+
+.clock .hand.hour {
+  transform: rotate(180deg);
+}
+
+.separator {
+  border-color: var(--color-black);
+}

@@ -1,0 +1,9 @@
+@import "../../../../common/styles/const.css";
+
+.label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  color: var(--color-green)
+}
