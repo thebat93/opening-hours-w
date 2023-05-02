@@ -1,0 +1,10 @@
+@import "../../../common/styles/const.css";
+
+.card {
+  margin: 32px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px var(--color-grey-2), 0px 0px 4px var(--color-grey-2), 0px 0px 4px var(--color-grey-2);
+  max-width: 360px;
+  background-color: var(--color-white);
+}
