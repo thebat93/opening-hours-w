@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Opening hours assignment V2.6
+
+Instructions:
+1. Place the opening hours data in `./src/data.json`
+2. Run `npm i`
+3. Run `npm start`
+
+This will run the app in development mode on http://localhost:3000
+
+Run tests: `npm test`
+
+Possible improvements and thoughts:
+1. Validate the schema before the opening hours data is transformed
+2. Localization: add translations for weekdays and adapt to 12-hour or 24-hour format depending on user's locale. Additionally show the week from Sunday (for en-US locale for example)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
